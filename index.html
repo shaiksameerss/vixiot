@@ -93,5 +93,97 @@
 </footer>
 
 <script src="script.js"></script>
+<!-- ==================================
+     VIXIOT AI CHATBOT
+================================== -->
+
+<div id="vixiot-chatbot">
+
+    <!-- Floating Button -->
+
+    <button
+        id="vixiot-chat-toggle"
+        aria-label="Open VIXIOT AI Assistant">
+
+        💬
+
+    </button>
+
+
+    <!-- Chat Window -->
+
+    <div id="vixiot-chat-window">
+
+        <!-- Header -->
+
+        <div id="vixiot-chat-header">
+
+            <div>
+
+                <strong>
+                    VIXIOT Smart Assistant
+                </strong>
+
+                <small>
+                    Smart Home Product Support
+                </small>
+
+            </div>
+
+            <button
+                id="vixiot-chat-close"
+                aria-label="Close chatbot">
+
+                ×
+
+            </button>
+
+        </div>
+
+
+        <!-- Chat Messages -->
+
+        <div id="vixiot-chat-messages">
+
+            <div class="vixiot-bot-message">
+
+                Hi! 👋 Welcome to VIXIOT.
+
+                I can help you explore smart switches,
+                automation and product features.
+
+                What would you like to know?
+
+            </div>
+
+        </div>
+
+
+        <!-- Input -->
+
+        <div id="vixiot-chat-input-area">
+
+            <input
+                id="vixiot-chat-input"
+                type="text"
+                maxlength="2000"
+                placeholder="Ask about smart switches..."
+                aria-label="Enter your question">
+
+            <button
+                id="vixiot-chat-send">
+
+                Send
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="chatbot.js"></script>
 </body>
 </html>
