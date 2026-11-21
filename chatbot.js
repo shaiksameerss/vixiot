@@ -29,7 +29,7 @@ const chatMessages = document.getElementById(
 
 // Replace this with your actual backend URL
 const BACKEND_URL =
-    "https://YOUR-RENDER-SERVICE.onrender.com/chat";
+    "https://vixiot-ai-backend.onrender.com/chat";
 
 
 /* OPEN CHAT */
